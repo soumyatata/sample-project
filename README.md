@@ -24,7 +24,7 @@ This project is a simple web application that demonstrates the use of a Python b
 ### Backend Setup (Flask)
 
 1. Clone the repository:
-   ```bash
+  ```bash
    git clone https://github.com/soumyatata/axa-xl-insurance-assessment.git
    cd axa-xl-insurance-assessment/backend
   ```
