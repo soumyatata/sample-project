@@ -43,7 +43,7 @@ This project is a simple web application that demonstrates the use of a Python b
 
 1. Navigate to the frontend directory
   ```bash
-    cd ../frontend
+    cd /frontend
   ```
 
 2. Install dependecies:
@@ -57,6 +57,13 @@ This project is a simple web application that demonstrates the use of a Python b
   npm start
   ```
 The frontend will be available at `http://localhost:3000`.
+
+### Key Points:
+1. **Frontend `.env.development` file**: It’s essential to specify the `REACT_APP_API_URL` in the `.env.development` file for the React frontend to know where to make API calls.
+2. **Backend API URL**: In this case, `REACT_APP_API_URL=http://127.0.0.1:5000/api` points to the backend API, ensuring React knows where to send the requests.
+
+### Additional Note:
+- Ensure that the **backend** is running before starting the **frontend**, as the frontend will try to connect to the backend.
 
 **How to Use**
 1. Open the frontend application in your browser.
